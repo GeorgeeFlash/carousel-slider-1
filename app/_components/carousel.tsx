@@ -24,6 +24,7 @@ const Carousel = ({autoSlide = false, slides, autoSlideInterval}: Props) => {
     return () => {
       clearInterval(slideInterval)
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
   
 
